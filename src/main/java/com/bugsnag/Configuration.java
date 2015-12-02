@@ -67,6 +67,8 @@ public class Configuration {
     LockableValue<String> context = new LockableValue<String>();
     LockableValue<String> releaseStage = new LockableValue<String>("production");
     LockableValue<String> appVersion = new LockableValue<String>();
+    LockableValue<Integer> appVersionCode = new LockableValue<Integer>();
+    LockableValue<String> appId = new LockableValue<String>();
     LockableValue<String> osVersion = new LockableValue<String>();
     MetaData metaData = new MetaData();
 

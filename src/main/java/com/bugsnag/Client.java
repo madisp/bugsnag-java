@@ -77,6 +77,14 @@ public class Client {
         config.appVersion.setLocked(appVersion);
     }
 
+    public void setAppVersionCode(int appVersionCode) {
+        config.appVersionCode.setLocked(appVersionCode);
+    }
+
+    public void setAppId(String appId) {
+        config.appId.setLocked(appId);
+    }
+
     public void setNotifierName(String notifierName) {
         config.setNotifierName(notifierName);
     }

@@ -21,6 +21,8 @@ public class Diagnostics {
     public JSONObject getAppData() {
         JSONUtils.safePutOpt(appData, "version", config.appVersion.get());
         JSONUtils.safePutOpt(appData, "releaseStage", config.releaseStage.get());
+        JSONUtils.safePutOpt(appData, "versionCode", config.appVersionCode.get());
+        JSONUtils.safePutOpt(appData, "id", config.appId.get());
         return appData;
     }
 
